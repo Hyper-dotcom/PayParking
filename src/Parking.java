@@ -144,7 +144,11 @@ public class Parking {
 		return s;
 	}
 	
+	//functia de calculat pret
 	private int getPriceForParking(int t){
+		if(t==0)
+			return 0;
+		
 		int price = 10;
 		int hours = t / 60; 
 		int minutes = t % 60;
