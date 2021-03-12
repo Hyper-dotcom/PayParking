@@ -31,7 +31,7 @@ public class Parking {
 		this.showParkedCars(); 
 		Scanner input = new Scanner(System.in);
 		boolean ok = true;
-		System.out.println("Introduceti numarul masinii de eliminat");
+		System.out.println("Introduceti numarul de inmatriculare a masinii de eliminat");
 		if(this.parkedCars>0){
 			while(ok){
 				String a = input.nextLine();
